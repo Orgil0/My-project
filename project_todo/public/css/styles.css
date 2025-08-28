@@ -1,0 +1,206 @@
+body {
+    background: var(--Dark-Blue-Gray, #181824);
+    margin: 0;
+
+}
+
+.title {
+    background: url(../img/Rectangle\ 34.png) lightgray 50% / cover no-repeat;
+    width: 1512px;
+    height: 285px;
+    flex-shrink: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -250px;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    color: var(--White, #FFF);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: -220px;
+    margin-left: -500px; */
+}
+
+.container {
+    margin: 0 auto;
+    border-radius: 8px;
+    background: var(--Blue-Gray, #25273C);
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    max-width: 618px;
+    height: 766px;
+    flex-shrink: 0;
+}
+
+.todo-input {
+    border-radius: 999px;
+    border: 2px solid var(--Blue, #93A9FF);
+    background: var(--Blue-Gray, #25273C);
+    color: #FFF;
+}
+
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 12px;
+    padding: 20px;
+    border-radius: 8px 8px 0px 0px;
+    background: var(--Blue-Gray, #25273C);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#todo-list {
+    padding: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background: var(--Blue-Gray, #25273C);
+
+    color: var(--white-87-opacity, rgba(255, 255, 255, 0.87));
+    border: 1px solid var(--white-32-opacity, rgba(255, 255, 255, 0.32));
+    font-size: 18px;
+
+    height: 41px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 702px;
+    width: 617px;
+    border-radius: 0 0px 8px 8px;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+}
+
+.background img {
+    width: 153.563px;
+    height: 167.998px;
+}
+
+.background div {
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.06px;
+    margin-top: 24px;
+}
+
+.background p {
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.045px;
+}
+
+body.light {
+    background: #f4f4f9;
+    color: #333;
+}
+
+body.light .container {
+    background: #ffffff;
+}
+
+body.light .header h1 {
+    color: #fff;
+}
+
+body.light .todo-input {
+    border: 2px solid #93A9FF;
+    background: #ffffff;
+    color: #333;
+}
+
+body.light .input-container {
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+body.light .background {
+    color: #333;
+}
+
+
+body.light .completed {
+    color: #888;
+    text-decoration: line-through;
+}
+
+body.light button {
+    background-color: #4caf50;
+    color: white;
+}
+
+body.light button:hover {
+    background-color: #45a049;
+}
+
+body.light .background img {
+    width: 153.563px;
+    height: 167.998px;
+}
+
+body.light li {
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+    color: #181824;
+    border-radius: 8px;
+    border: 1px solid var(--dark-gray-32-opacity, rgba(33, 33, 33, 0.32));
+}
+

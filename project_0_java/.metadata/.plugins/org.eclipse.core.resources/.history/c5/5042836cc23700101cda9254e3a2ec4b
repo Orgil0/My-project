@@ -1,0 +1,33 @@
+package Test;
+
+public class A {
+	public static void main(String[] args) {
+		SampleClass s = new SampleClass("Hellworld.");
+		s.setNumber(100);
+		s.update(s.getNumber());
+		System.out.println(s.getNumber() + " " + s.getStr().substring(4));
+		}
+
+		public class SampleClass {
+		private int number = 0;
+		private String str = "";
+		public SampleClass(String str) {
+		this.str = str;
+		}
+		public int getNumber() {
+		return number;
+		}
+		public void setNumber(int number) {
+		this.number = number;
+		}
+		public String getStr() {
+		return str;
+		}
+		public void setStr(String str) {
+		this.str = str;
+		}
+		public void update(int n) {
+		n = n * n;
+		}
+		}
+}

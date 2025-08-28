@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="logo">
+          <img src="./img/Group.png" alt="">
+          <img src="./img/iblog.png" alt="">
+        </div>
+        <div class="search" id="search">
+          <input type="text" placeholder="Хайх">
+          <img src="./img/search-normal.png" alt="" id="goggle">
+        </div>
+        <div class="top-buttons">
+          <div class="switch-form">
+            <a id="burtguuleh" href="register.html">Бүртгүүлэх</a>
+          </div>
+          <div class="switch-form">
+            <a id="newtreh" href="login.html">Нэвтрэх</a>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+        <h1>Бүртгүүлэх</h1>
+        <form id="register">
+            <div class="form-group">
+                <label for="email">
+                    
+                    <input type="email" id="email" placeholder="Exmaple@gmail.com" required >
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="password">
+ 
+                    <input type="password" id="password" placeholder="Нууц үг зохиох" required>
+                </label>
+                <div id="passwordError" class="error">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">
+                   
+                    <input type="password" id="confirmPassword" placeholder="Нууц үг давтах" required>
+                </label>
+                <div id="confirmPasswordError" class="error"></div>
+            </div>
+            <button id="burtguuleh2" type="submit">Бүртгүүлэх</button>
+        </form>
+        
+    </div>
+    <div class="footer">
+      <div class="info">
+        <div class="logo">
+          <img src="./img/Group.png" alt="">
+          <img src="./img/iblog.png" alt="">
+        </div>
+  
+        <p> Write, Read, Enjoy</p>
+      </div>
+      <div class="tuslamj">
+        <p>Тусламж</p>
+        <div class="tuslamj-bottom">
+          Хэрэглэх заавар
+        </div>
+        <div class="tuslamj-bottom">
+          Санал хүсэлт
+        </div>
+      </div>
+  
+  
+      <div class="contact">
+        <p>Бидэнтэй холбогдох</p>
+        <div class="holboo"><img src="./img/fi_mail.png" alt="">
+          info@jstemplate.net </div>
+        <div class="holboo"><img src="./img/fi_phone.png" alt="" >
+        +976 99112344 </div>
+      </div>
+    </div>
+      <script type="module" src="./js/register.js"></script>
+</body>
+</html>

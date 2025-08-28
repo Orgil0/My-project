@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+/Users/orgil/Desktop/fullstack_fall_2024_nippon/orgil/project_0_java/backend/Practice/.metadata/.plugins/org.eclipse.jdt.core
+3544949159.index
+1865797976.index
